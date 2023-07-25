@@ -1,0 +1,208 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html , body {
+      height: 100%; 
+      width: 100%;
+  }
+  
+  #page1{
+    min-height: 100vh;
+    width: 100%;
+    
+
+  }
+  #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw;
+    height: 27vh;
+    background-color: white;
+    transition: all ease 2s;
+  }
+  #nav h4:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+  }
+  #nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+    
+  }
+  #nav1 h4 {
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  #nav1 h4:nth-child(1){
+ color: red;
+  }
+  #nav2 {
+    height: 200px;
+    width: 200px;
+   
+    background-image: url(https://spaincollection.com/wp-content/themes/spaincollection/img/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+  }
+  #nav3 h4 {
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  #page1>h3{
+    
+    font-family:twice writing serif;
+    font-size: 2vw;
+     margin-top: 3vh;
+    width: 60%;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+  
+  }
+  #page1>h1{
+    font-size: 3vw;
+    line-height: 3vw;
+    font-family: twice writing serif;
+    font-style: italic;
+    margin-top: 4vh;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    z-index: 9;
+    transform: translate(-50%);
+  }
+ #imgcntn{
+height: 100vh;
+width: 100%;
+background-color: white;
+margin-top: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+#imgcntn #part1{
+  height: 80%;
+  width: 30%;
+  background-color: white;
+  position: relative;
+}
+#imgcntn #part1 video {
+height: 350px;
+width: 300px;
+object-fit: cover;
+position: absolute;
+object-position: center;
+}
+#imgcntn #part1 video:nth-child(1){
+top: 50%;
+left: -23%;
+transform: translate(0 , -50%);
+
+}
+#imgcntn #part1 video:nth-child(2){
+  top: 4%;
+  right: 10%;
+  
+}
+#imgcntn #part1 video:nth-child(3){
+  bottom: 4%;
+  right: 10%;
+}
+
+#imgcntn #part2{
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  position: relative;
+}
+#imgcntn #part2 video{
+object-fit: cover;
+position: absolute;
+object-position: center;
+height: 100%;
+width: 100%;
+}
+#imgcntn #part3{
+  height: 80%;
+  width: 30%;
+  background-color: white;
+  position: relative;
+}
+#imgcntn #part3 video {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  position: absolute;
+  object-position: center;
+  }
+  #imgcntn #part3 video:nth-child(1){
+  top: 50%;
+  left:8%;
+  transform:translate(0 , -50%);
+  
+  }
+  #imgcntn #part3 video:nth-child(2){
+    top: 4%;
+    right: -20%;
+    
+  }
+  #imgcntn #part3 video:nth-child(3){
+    bottom: 4%;
+    right: -20%;
+  }
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+  }
+#page2 img{
+  height: 600px;
+  width: 700px;
+  position: relative;
+  top: 150px;
+  left: 40%;
+}
+#page2 h1 {
+  font-size: 3vw;
+    line-height: 3vw;
+    font-family: twice writing serif;
+    font-style: italic;
+    
+    width: 50%;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    left: 700px;
+    bottom: 300px;
+}
+
+#page2 #over{
+  height: 610px;
+  width: 380px;
+  background-color: rgba(232, 29, 29, 0.427);
+  position: relative;
+  z-index: 9;
+  left: 40%;
+  bottom: 34%;
+  }
+
+ 
